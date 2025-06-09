@@ -8,6 +8,20 @@ Data was used for non-commercial, educational purposes only.
 I cleaned and transformed the dataset using Excel and Power Query in Power BI to support the dashboard visuals and insight generation.
 
 
+## Data Cleaning & Transformation Summary
+
+| Task Description                     | Tool Used    | Column(s) Affected                    | Steps Involved                                                                 |
+|-------------------------------------|--------------|----------------------------------------|--------------------------------------------------------------------------------|
+| **Label SMS Status**                | Excel        | `SMS_received` → `SMS_Status`         | Converted binary values: `TRUE` → “Got SMS”, `FALSE` → “No SMS”               |
+| **Simplify No-show Logic**          | Excel        | `No-show` → `Showed_Up`               | Reversed logic: `"No"` → “Showed Up”, `"Yes"` → “No-Show”                     |
+| **Create Age Groups**               | Excel        | `Age` → `Age Band`                    | Grouped ages into bands: 0–18, 19–30, 31–45, 46–60, 61+                        |
+| **Unpivot Conditions**              | Power Query  | `Diabetes`, `Hypertension`, `Alcoholism` | Unpivoted into a single `Condition` column                                     |
+| **Add Presence Indicator**          | Power Query  | `Condition` → `Present`               | Created Boolean column indicating if condition is present                      |
+| **Filter Relevant Records**         | Power Query  | `Present`                             | Kept only `Present = TRUE` rows for condition-level analysis                  |
+| **Relabel Booleans in Attendance**  | Power Query  | `Showed_Up`                           | Replaced `TRUE` → “Showed Up”, `FALSE` → “No-Show”                             |
+
+
+
 A Power Bi Project analyzing no-show rates across demographic and SMS remindedrs
 Reducing Missed Appointments: Who Misses, Why, and How to Improve
 
@@ -76,6 +90,6 @@ Segment analysis by clinic location or time of day
 Share filtered dashboards with care teams for local actions
 
 
-Prepared by Jess | Healthcare Analytics Portfolio
+Prepared by Jessica | Healthcare Analytics Portfolio
 Note: To view and interact with the dashboard file (.pbix), you'll need to have Microsoft Power BI Desktop installed on your computer.
 
