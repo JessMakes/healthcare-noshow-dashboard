@@ -1,7 +1,7 @@
 # healthcare-noshow-dashboard
 A Power Bi Project analyzing no-show rates across demographic and SMS remindedrs
 
-Title: Reducing Missed Appointments: Who Misses, Why, and How to Improve
+Reducing Missed Appointments: Who Misses, Why, and How to Improve
 
 Project Summary:
 This project analyzes 428,000 patient appointments from a real-world healthcare dataset to uncover patterns behind missed appointments (no-shows). The interactive Power BI dashboard explores trends across age, gender, medical conditions, and the effectiveness of SMS reminders. The goal is to support data-driven decisions that improve patient attendance, optimize scheduling, and enhance operational efficiency.
