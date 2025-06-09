@@ -1,4 +1,4 @@
-# healthcare-noshow-dashboard
+# healthcare-noshow Insights
 A Power Bi Project analyzing no-show rates across demographic and SMS remindedrs
 
 Reducing Missed Appointments: Who Misses, Why, and How to Improve
