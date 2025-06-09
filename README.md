@@ -22,8 +22,6 @@ I cleaned and transformed the dataset using Excel and Power Query in Power BI to
 
 
 
-A Power Bi Project analyzing no-show rates across demographic and SMS remindedrs
-Reducing Missed Appointments: Who Misses, Why, and How to Improve
 
 Project Summary:
 This project analyzes 428,000 patient appointments from a real-world healthcare dataset to uncover patterns behind missed appointments (no-shows). 
