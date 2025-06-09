@@ -6,7 +6,7 @@ Reducing Missed Appointments: Who Misses, Why, and How to Improve
 Project Summary:
 This project analyzes 428,000 patient appointments from a real-world healthcare dataset to uncover patterns behind missed appointments (no-shows). The interactive Power BI dashboard explores trends across age, gender, medical conditions, and the effectiveness of SMS reminders. The goal is to support data-driven decisions that improve patient attendance, optimize scheduling, and enhance operational efficiency.
 
-📊 Dashboard Highlights
+Dashboard Highlights
 
 1. Total Appointments Scheduled
 
@@ -45,7 +45,7 @@ Recommendation: Experiment with SMS tone, timing, and frequency.
 Overall no-shows: 86,720 (~20%)
 Opportunity: Reducing no-shows by even 5% can free up over 21,000 appointments/year.
 
-💡 Business Impact
+ Business Impact
 
 Reducing no-shows improves:
 Patient access to care
@@ -55,13 +55,13 @@ Revenue recovery
 
 This dashboard enables targeted interventions for high-risk groups and channels (e.g. SMS).
 
-🔧 Tools Used
+ Tools Used
 
 Power BI: Dashboard creation and interactive analysis
 
 Excel: Data wrangling and no-show flag logic
 
-✅ Next Steps
+Next Steps
 
 Segment analysis by clinic location or time of day
 Share filtered dashboards with care teams for local action
