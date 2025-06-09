@@ -1,8 +1,14 @@
 Healthcare-noshow Insights Dashboard
 
 
-A Power Bi Project analyzing no-show rates across demographic and SMS remindedrs
+This project is based on the public "No-Show Appointments" dataset originally published on Kaggle. 
+It contains 110K+ medical appointments from Brazil, including patient demographics, chronic conditions, and SMS reminders.
+Data was used for non-commercial, educational purposes only.
 
+I cleaned and transformed the dataset using Excel and Power Query in Power BI to support the dashboard visuals and insight generation.
+
+
+A Power Bi Project analyzing no-show rates across demographic and SMS remindedrs
 Reducing Missed Appointments: Who Misses, Why, and How to Improve
 
 Project Summary:
