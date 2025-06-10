@@ -1,4 +1,4 @@
-Healthcare-noshow Insights Dashboard
+Healthcare-noshow Insights 
 
 
 This project is based on the public "No-Show Appointments" dataset originally published on Kaggle. 
