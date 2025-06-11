@@ -21,73 +21,69 @@ I cleaned and transformed the dataset using Excel and Power Query in Power BI to
 | **Relabel Booleans in Attendance**  | Power Query  | `Showed_Up`                           | Replaced `TRUE` → “Showed Up”, `FALSE` → “No-Show”                             |
 
 
+# Reducing Missed Appointments: Who Misses, Why, and How to Improve
+
+## Project Overview
+
+This project analyzes a real-world healthcare dataset of over 110,000 patient appointments from Brazil, sourced from Kaggle. The goal was to uncover patterns behind missed appointments (no-shows) and generate actionable strategies to improve patient attendance.
+
+Key variables explored include patient age, gender, chronic medical conditions, and whether an SMS reminder was received. The analysis was conducted using Excel, Power Query, and Power BI for data transformation, visualization, and insight development.
+
+The findings are contextualized with external research showing the significant financial cost of no-shows — approximately $150 billion per year in the U.S. and millions in annual hospital losses in Australia.
+
+---
+
+## Key Insights from the Dashboard
+
+- Ages 41–65 had the highest number of no-shows  
+  This middle-aged group accounted for the greatest volume of missed appointments, making them a high-priority segment for intervention.
+
+- Hypertension patients showed the highest no-show counts among chronic conditions  
+  This signals the need for additional engagement efforts with patients managing long-term illnesses.
+
+- Only about 40% of patients received an SMS reminder  
+  Despite limited coverage, SMS reminders proved effective at reducing no-shows.
+
+- SMS reminders lowered no-show volume by approximately 20%  
+  Patients who received reminders were significantly more likely to attend their appointments.
+
+- Women attended appointments more consistently than men  
+  Approximately 66% of attendance was female, suggesting potential to tailor outreach strategies by gender.
+
+---
+
+## Recommendations
+
+- Expand SMS coverage to all patients, as reminders are clearly linked to improved attendance  
+- Target patients aged 41–65 with additional or repeated reminders, given their high no-show volume  
+- Implement receptionist follow-ups or calls for patients with chronic conditions, especially hypertension  
+- Explore gender-based engagement strategies — such as message timing or format — to improve male attendance rates
+
+---
+
+## Tools Used
+
+- Excel: Data cleaning and derived columns (e.g., age bands, SMS labels)  
+- Power Query: Wide-to-long format reshaping for chronic condition analysis  
+- Power BI: Visualizations, insight extraction, and executive summary design
+
+---
+
+## Dataset Source
+
+Brazil No-Show Appointments Dataset  
+Source: [Kaggle - Joni Arroba](https://www.kaggle.com/datasets/joniarroba/noshowappointments)  
+Contains over 110,000 appointment records  
+Used for educational, non-commercial purposes
+
+---
+
+## Financial Impact of Missed Appointments
+
+- United States: Approximately $150 billion in annual losses; $200 per missed visit  
+- Australia: $500,000 annual loss at St Vincent’s Hospital; up to $3.8 million per month in QLD specialist clinics  
+- Sources: NSW Government, The Guardian, TransLoc
 
 
-Project Summary:
-This project analyzes 428,000 patient appointments from a real-world healthcare dataset to uncover patterns behind missed appointments (no-shows). 
-The interactive Power BI dashboard explores trends across age, gender, medical conditions, and the effectiveness of SMS reminders. 
-The goal is to support data-driven decisions that improve patient attendance, optimize scheduling, and enhance operational efficiency.
 
-Dashboard Highlights
-
-1. Total Appointments Scheduled
-
-Total Volume: 427,950 appointments.
-Even small improvements in show-up rate can lead to large operational gains.
-
-2. No-Show Rate by Age Band
-Highest no-shows: 41–65 and 18–40 age groups.
-
-Recommendation: Prioritize reminders and flexible scheduling for working-age adults.
-
-3. Attendance by Chronic Condition
-Higher attendance: Hypertension, diabetes.
-Lower attendance: Alcoholism, handicap.
-
-Recommendation: Provide additional support or follow-up for vulnerable groups.
-
-4. Gender-Based Attendance
-Insight: Women showed up more often than men.
-
-Recommendation: Explore possible barriers men face and adjust outreach strategies.
-
-5. SMS Reminder Effectiveness
-No-shows with SMS: 38,272
-No-shows without SMS: 48,448
-
-Recommendation: SMS reminders help but aren’t a silver bullet. Combine with personalized follow-up.
-
-6. SMS Distribution by Age Group
-Most SMS sent: 41–65 and 18–40
-Insight: Despite high SMS volume, no-show rates remain high for these groups.
-
-Recommendation: Experiment with SMS tone, timing, and frequency.
-
-7. No-Show Flag Summary
-Overall no-shows: 86,720 (~20%)
-Opportunity: Reducing no-shows by even 5% can free up over 21,000 appointments/year.
-
-Business Impact
-
-Reducing no-shows improves:
-Patient access to care
-Clinic efficiency
-Staff resource planning
-Revenue recovery
-
-This dashboard enables targeted interventions for high-risk groups and channels (e.g. SMS).
-
-Tools Used
-
-Power BI: Dashboard creation and interactive analysis
-Excel: Data wrangling and no-show flag logic
-
-Next Steps
-
-Segment analysis by clinic location or time of day
-Share filtered dashboards with care teams for local actions
-
-
-Prepared by Jessica | Healthcare Analytics Portfolio
-Note: To view and interact with the dashboard file (.pbix), you'll need to have Microsoft Power BI Desktop installed on your computer.
 
