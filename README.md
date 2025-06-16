@@ -122,8 +122,9 @@ SELECT Gender,
        SUM(CASE WHEN Showed_up = 'TRUE' THEN 1 ELSE 0 END) AS showed_up
 FROM noshow_raw
 GROUP BY Gender;
+```
 
-
+>
 
 ### Tools Used
 
@@ -148,3 +149,8 @@ Usage: Educational and non-commercial purposes only
 * **United States**: \~\$150 billion in annual losses; \~\$200 per missed visit
 * **Australia**: \$500,000/year loss at St Vincent’s; up to \$3.8 million/month in QLD outpatient clinics
 * **Sources**: NSW Government, The Guardian, TransLoc
+
+
+
+
+
