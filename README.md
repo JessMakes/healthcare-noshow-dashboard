@@ -122,11 +122,8 @@ SELECT Gender,
        SUM(CASE WHEN Showed_up = 'TRUE' THEN 1 ELSE 0 END) AS showed_up
 FROM noshow_raw
 GROUP BY Gender;
-```
 
-> Note: All logic above aligns with the cleaned dataset post-Power BI transformation and may not include intermediate steps applied in Power Query.
 
----
 
 ### Tools Used
 
