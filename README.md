@@ -1,4 +1,4 @@
-# Healthcare No-Show Insights Dashboard
+# Healthcare No-Show Insights 
 
 ## Project Overview
 
